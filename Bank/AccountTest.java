@@ -1,22 +1,18 @@
-import java.util.Scanner;
+
 
 public class AccountTest {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{ 
 		// TODO Auto-generated method stub
-		Scanner input = new Scanner(System.in);
 		
-		Account myAccount= new Account(null);
 		
-		System.out.printf("Initial name is : %s%n%n", myAccount.getName());
+		Account myAccount1 = new Account("Michael Hutton");
+		Account myAccount2 = new Account("Mike Hutton");
 		
-		System.out.println("Please enter the name: ");
-		String theName = input.nextLine();
-		myAccount.setName(theName);
+		System.out.printf("Initial name is : %s%n%n", myAccount1.getName());
+		System.out.printf("Initial name is : %s%n%n", myAccount2.getName());
 		
-		System.out.println();
-		
-		System.out.printf("Name in object MyAccount is : %n%s%n", myAccount.getName());
 	}
 
 }
