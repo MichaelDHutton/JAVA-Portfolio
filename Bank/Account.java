@@ -1,12 +1,24 @@
 
-public class Account {
-	private String name; 
+public class Account 
+{
+	private String name; //instance variable
 	
-	public void setName(String name) {
+	//constructor initializes name with parameter name
+	public Account(String name)// constructor name is class name 
+	{
+		this.name = name;
+	}
+	
+	//method to set the name 
+	public void setName(String name) 
+	{
 				
 		this.name = name;
 	}
-	public String getName() {
+	
+	//method to retrieve the name
+	public String getName() 
+	{
 		return name;
 	}
 

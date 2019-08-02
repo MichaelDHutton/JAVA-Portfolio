@@ -5,7 +5,8 @@ public class AccountTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
-		Account myAccount= new Account();
+		
+		Account myAccount= new Account(null);
 		
 		System.out.printf("Initial name is : %s%n%n", myAccount.getName());
 		
