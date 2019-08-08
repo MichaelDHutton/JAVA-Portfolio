@@ -25,7 +25,7 @@ public class RollDice {
 		int Ten = 0;
 		int Eleven = 0;
 		int BoxCars = 0;
-		System.out.println("Let's rool the dice");
+		System.out.println("Let's roll the dice");
 		for (int i = 1; i <= 100000000; i++) 
 		{
 			int face1 = 1 + randomNumbers.nextInt(6);
