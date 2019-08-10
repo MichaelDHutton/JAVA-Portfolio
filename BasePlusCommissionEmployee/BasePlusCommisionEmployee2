@@ -1,0 +1,2 @@
+//BasePlusCommisionEmployee2 inherits from commissionEmployee
+//and access the superclass's private data via inherited public method
